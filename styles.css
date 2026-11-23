@@ -180,6 +180,10 @@ h2{font-family:var(--display);font-size:clamp(30px,3.8vw,42px);line-height:1.1;l
 .links{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:16px;border-top:1px solid var(--line)}
 .links a{display:inline-flex;align-items:center;gap:6px;font-size:13.5px;font-weight:600;padding:7px 12px;border-radius:9px;border:1px solid var(--line);color:var(--ink-2)}
 .links a:first-child{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.links .note{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);padding:7px 4px}
+.projects.collapsed > .proj:nth-child(n+4){display:none}
+.projects-more{display:flex;justify-content:center;margin-top:28px}
+.projects-more[hidden]{display:none}
 .links a:hover{text-decoration:none;border-color:var(--accent);color:var(--accent)}
 .links a:first-child:hover{background:var(--accent);border-color:var(--accent);color:#fff}
 

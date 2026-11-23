@@ -47,6 +47,30 @@
   observeReveals();
   window.__observeReveals = observeReveals;
 
+  /* Projects: show the first 3 cards, reveal the rest on demand */
+  var pGrid = document.getElementById('project-grid');
+  var pToggle = document.getElementById('projects-toggle');
+  var pWrap = document.getElementById('projects-more');
+  if (pGrid && pToggle && pWrap) {
+    var extra = pGrid.querySelectorAll(':scope > .proj:nth-child(n+4)').length;
+    if (extra > 0) {
+      var setToggle = function () {
+        var open = !pGrid.classList.contains('collapsed');
+        pToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+        pToggle.textContent = open ? 'Show fewer' : 'See more projects (' + extra + ')';
+      };
+      pGrid.classList.add('collapsed');
+      pWrap.hidden = false;
+      setToggle();
+      pToggle.addEventListener('click', function () {
+        pGrid.classList.toggle('collapsed');
+        setToggle();
+        if (!pGrid.classList.contains('collapsed')) observeReveals(pGrid);
+        else { var s = document.getElementById('projects'); if (s) s.scrollIntoView({ block: 'start' }); }
+      });
+    }
+  }
+
   /* Active nav link for in-page sections */
   var navLinks = document.querySelectorAll('.nav a[href^="#"]');
   if (navLinks.length && 'IntersectionObserver' in window) {

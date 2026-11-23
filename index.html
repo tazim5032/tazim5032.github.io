@@ -36,7 +36,8 @@
   <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
   <symbol id="i-cart" viewBox="0 0 24 24"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.7 12.4a1.5 1.5 0 0 0 1.5 1.1h8.6a1.5 1.5 0 0 0 1.5-1.1L21 7H6"/></symbol>
   <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h12M9 12h12M9 18h12"/><path d="m3 6 1.5 1.5L7 5M3 12l1.5 1.5L7 11M3 18l1.5 1.5L7 17"/></symbol>
-  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></symbol>
+  <symbol id="i-book"viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></symbol>
   <symbol id="i-server" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="7" rx="2"/><rect x="3" y="13" width="18" height="7" rx="2"/><path d="M7 7.5h.01M7 16.5h.01"/></symbol>
   <symbol id="i-layout" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></symbol>
   <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z"/></symbol>
@@ -180,7 +181,16 @@
       <h2>Selected work</h2>
       <p class="sec-intro">Full-stack applications built end to end, from database and API to dashboard UI.</p>
     </div>
-    <div class="projects">
+    <div class="projects" id="project-grid">
+      <article class="card proj reveal">
+        <div class="cover"><span class="cat">SaaS · Commercial</span><span class="glyph"><svg class="i"><use href="#i-cap"/></svg></span></div>
+        <div class="proj-body">
+          <h3>CoachingDesk</h3>
+          <p>A multi-tenant coaching-center management SaaS for Bangladesh: students, batches and attendance, fees with receipts and due lists, exams and merit lists, SMS notifications, bKash subscription billing, a guardian portal and a Bangla/English mobile-friendly PWA.</p>
+          <div class="stack"><span>Next.js</span><span>TypeScript</span><span>PostgreSQL</span><span>Drizzle</span><span>Tailwind</span></div>
+          <div class="links"><a href="https://coachingdesk-omega.vercel.app" target="_blank" rel="noopener">Live demo <svg class="i"><use href="#i-ext"/></svg></a><span class="note"><svg class="i"><use href="#i-lock"/></svg>Private code</span></div>
+        </div>
+      </article>
       <article class="card proj reveal">
         <div class="cover"><span class="cat">E-commerce</span><span class="glyph"><svg class="i"><use href="#i-cart"/></svg></span></div>
         <div class="proj-body">
@@ -208,6 +218,9 @@
           <div class="links"><a href="https://tazim-eduflow.netlify.app/" target="_blank" rel="noopener">Live demo <svg class="i"><use href="#i-ext"/></svg></a><a href="https://github.com/tazim5032/eduflow" target="_blank" rel="noopener"><svg class="i"><use href="#i-github"/></svg>Code</a><a href="https://github.com/tazim5032/eduflow-api" target="_blank" rel="noopener"><svg class="i"><use href="#i-github"/></svg>API</a></div>
         </div>
       </article>
+    </div>
+    <div class="projects-more" id="projects-more" hidden>
+      <button type="button" class="btn" id="projects-toggle" aria-expanded="false" aria-controls="project-grid"></button>
     </div>
   </section>
 
