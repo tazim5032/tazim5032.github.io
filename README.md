@@ -1,6 +1,6 @@
 # Mohammad Fakhrul Islam · Portfolio
 
-**Live site:** https://tazim-dev.netlify.app
+**Live site:** https://tazim5032.github.io
 
 Personal portfolio of a software engineer and engineering lead: full-stack web development, real-time 3D with Unreal Engine Pixel Streaming, AI evaluation and competitive programming.
 
@@ -43,7 +43,7 @@ Then open http://localhost:8765
 npm run build   # writes only the public files to dist/
 ```
 
-Upload the contents of `dist/` to Netlify (drag-and-drop or `npx netlify deploy --dir=dist --prod`).
+GitHub Pages serves the site straight from the `main` branch: pushing to `main` publishes it at https://tazim5032.github.io. A copy is also kept on Netlify (upload the contents of `dist/`).
 
 ## Update the résumé
 
