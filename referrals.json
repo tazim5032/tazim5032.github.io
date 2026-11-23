@@ -1,0 +1,1116 @@
+{
+  "updated": "2026-11-22",
+  "boards": [
+    {
+      "company": "micro1",
+      "title": "Browse every open role on micro1",
+      "note": "Openings change often. See the full, live list on micro1.",
+      "link": "https://refer.micro1.ai/referral/jobs/?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    }
+  ],
+  "roles": [
+    {
+      "company": "micro1",
+      "role": "GPU Programming Software Engineer",
+      "category": "Engineering & AI",
+      "pay": "$50–$120/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "CUDA",
+        "WebGPU",
+        "GLSL"
+      ],
+      "link": "https://jobs.micro1.ai/post/32f53086-51ef-4e17-8865-0b8f0bf8a6fa?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "CUDA Engineering Expert",
+      "category": "Engineering & AI",
+      "pay": "$60–$120/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "CUDA",
+        "C++",
+        "GLSL"
+      ],
+      "link": "https://jobs.micro1.ai/post/76b0e621-b4f4-4fa4-bd7b-c4fe96f96610?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Software Engineer (Electron.js)",
+      "category": "Engineering & AI",
+      "pay": "$6–$7/hr",
+      "openings": 1,
+      "highDemand": false,
+      "skills": [
+        "Electron.js",
+        "TypeScript"
+      ],
+      "link": "https://jobs.micro1.ai/post/c37ac96c-2116-4c5e-92c7-180da9b502db?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "UI/UX Designer",
+      "category": "Engineering & AI",
+      "pay": "$7–$8/hr",
+      "openings": 1,
+      "highDemand": true,
+      "skills": [
+        "UI/UX and product design",
+        "Visual design"
+      ],
+      "link": "https://jobs.micro1.ai/post/094f341c-e550-41cf-b489-e75d35e7d90e?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Associate Forward Deployed Engineer (aFDE)",
+      "category": "Engineering & AI",
+      "pay": "$40–$60/hr",
+      "openings": 1,
+      "highDemand": true,
+      "skills": [
+        "Python",
+        "SQL"
+      ],
+      "link": "https://jobs.micro1.ai/post/b1316606-46fb-4c3d-a4f9-5a2368e88d70?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Hardware Expert",
+      "category": "Engineering & AI",
+      "pay": "$60–$120/hr",
+      "openings": 10,
+      "highDemand": true,
+      "skills": [
+        "RTL",
+        "Hardware"
+      ],
+      "link": "https://jobs.micro1.ai/post/9b4ec396-e531-477e-b879-67ed14ecff4f?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Competitive Data Scientist (Kaggle)",
+      "category": "Engineering & AI",
+      "pay": "$60–$120/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "ML engineering",
+        "Data science"
+      ],
+      "link": "https://jobs.micro1.ai/post/ef804d87-812e-4f58-ab40-768af005ae11?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "PhysioNet Competitor (Biomedical Signal Processing & ML)",
+      "category": "Engineering & AI",
+      "pay": "$60–$120/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Biotechnology",
+        "Biology"
+      ],
+      "link": "https://jobs.micro1.ai/post/539bd8bc-374f-4c75-bf03-0648c3b9c47d?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "ML Engineer",
+      "category": "Engineering & AI",
+      "pay": "$60–$120/hr",
+      "openings": 100,
+      "highDemand": true,
+      "skills": [
+        "Machine learning"
+      ],
+      "link": "https://jobs.micro1.ai/post/cf351411-3ea6-400b-ae57-369d9b2884c5?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Unreal Engine Developer",
+      "category": "Engineering & AI",
+      "pay": "$50–$100/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Unreal Engine",
+        "C++"
+      ],
+      "link": "https://jobs.micro1.ai/post/6c5c8f87-fcbd-4535-b954-44d66eaff075?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "AI Agent Tester",
+      "category": "Engineering & AI",
+      "pay": "$25–$45/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "ChatGPT",
+        "AI agents"
+      ],
+      "link": "https://jobs.micro1.ai/post/d4080820-66c9-48b1-a29a-b8b1752b8e79?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Machine Learning Researcher",
+      "category": "Engineering & AI",
+      "pay": "$60–$120/hr",
+      "openings": 100,
+      "highDemand": false,
+      "skills": [
+        "Machine learning"
+      ],
+      "link": "https://jobs.micro1.ai/post/8dd58c0e-78c8-44b4-a8e3-0bfbfc1f765f?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Robotics Data Collection Specialist",
+      "category": "Data & Content",
+      "pay": "$20–$40/hr",
+      "openings": 10,
+      "highDemand": false,
+      "skills": [
+        "Robotics hardware",
+        "Sensor platforms",
+        "Data annotation"
+      ],
+      "link": "https://jobs.micro1.ai/post/b9160cd0-6896-4788-9935-596c225594b7?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Generalist (France)",
+      "category": "Data & Content",
+      "pay": "$30–$49/hr",
+      "openings": 55,
+      "highDemand": true,
+      "skills": [
+        "Generalist",
+        "Tester",
+        "English communication"
+      ],
+      "link": "https://jobs.micro1.ai/post/d91dafe2-acc2-437c-b2df-f91e02a662d4?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Generalist (South Korea)",
+      "category": "Data & Content",
+      "pay": "$30–$49/hr",
+      "openings": 65,
+      "highDemand": true,
+      "skills": [
+        "Generalist",
+        "Tester",
+        "English communication"
+      ],
+      "link": "https://jobs.micro1.ai/post/547590cb-08ad-4089-880f-fa0f8c742003?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Generalist (Japan)",
+      "category": "Data & Content",
+      "pay": "$30–$49/hr",
+      "openings": 65,
+      "highDemand": true,
+      "skills": [
+        "Generalist",
+        "Tester",
+        "English communication"
+      ],
+      "link": "https://jobs.micro1.ai/post/d9e9993e-0539-45f6-9000-e7b51b0c71c3?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Generalist (Brazil)",
+      "category": "Data & Content",
+      "pay": "$30–$49/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Generalist",
+        "Tester",
+        "English communication"
+      ],
+      "link": "https://jobs.micro1.ai/post/c76acdbd-57bb-4ab3-a0d6-ec2d8b3a0ce3?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Generalist (Australia)",
+      "category": "Data & Content",
+      "pay": "$30–$49/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Generalist",
+        "Tester",
+        "English communication"
+      ],
+      "link": "https://jobs.micro1.ai/post/6ac1bc21-812e-439c-93ac-1fb8aec41d06?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Generalist (Germany)",
+      "category": "Data & Content",
+      "pay": "$30–$49/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Generalist",
+        "Tester",
+        "English communication"
+      ],
+      "link": "https://jobs.micro1.ai/post/16bbdc5d-e18e-4c12-a4e1-2b88498a5bf6?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Generalist (United Kingdom)",
+      "category": "Data & Content",
+      "pay": "$30–$49/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Generalist",
+        "Tester",
+        "English communication"
+      ],
+      "link": "https://jobs.micro1.ai/post/d5c197cc-d9fb-4664-8116-2209a288e558?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Generalist (Canada)",
+      "category": "Data & Content",
+      "pay": "$30–$49/hr",
+      "openings": 35,
+      "highDemand": true,
+      "skills": [
+        "Generalist",
+        "Tester",
+        "English communication"
+      ],
+      "link": "https://jobs.micro1.ai/post/8d344840-7000-4bbd-9441-79d3823d194c?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Professional Photographer – Sony A1 II (Remote, Project-Based)",
+      "category": "Data & Content",
+      "pay": "",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Sony Alpha 1 II",
+        "Digital photography"
+      ],
+      "link": "https://jobs.micro1.ai/post/24119d95-0db7-463e-9137-ee958c847c6e?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "At-Home Video Recorder (U.S)",
+      "category": "Data & Content",
+      "pay": "$10–$15/hr",
+      "openings": 1000,
+      "highDemand": true,
+      "skills": [
+        "Smartphone",
+        "Video recording"
+      ],
+      "link": "https://jobs.micro1.ai/post/de83ff2f-bdd2-4862-aff9-7158cd327038?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "At-Home Video Recorder (LATAM)",
+      "category": "Data & Content",
+      "pay": "$6/hr",
+      "openings": 1000,
+      "highDemand": true,
+      "skills": [
+        "Smartphone",
+        "Video recording"
+      ],
+      "link": "https://jobs.micro1.ai/post/82310fe1-2ad6-4b48-9434-57f2ea679bac?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "At-Home Video Recorder",
+      "category": "Data & Content",
+      "pay": "$15/hr",
+      "openings": 1000,
+      "highDemand": true,
+      "skills": [
+        "Smartphone",
+        "Video recording"
+      ],
+      "link": "https://jobs.micro1.ai/post/7827dcd2-17d7-46a7-8d58-3ef6ff3930f4?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "At-Home Video Recorder",
+      "category": "Data & Content",
+      "pay": "$13–$15/hr",
+      "openings": 1000,
+      "highDemand": true,
+      "skills": [
+        "Smartphone",
+        "Video recording"
+      ],
+      "link": "https://jobs.micro1.ai/post/0f435bd2-e7f0-4d24-9e32-de34b71c2a97?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Data-Video Generalist (US-based)",
+      "category": "Data & Content",
+      "pay": "$13–$15/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Video capturing",
+        "IMU data"
+      ],
+      "link": "https://jobs.micro1.ai/post/204600bf-1abe-4ab0-a474-cd2264999149?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Smartphone Video Recorder",
+      "category": "Data & Content",
+      "pay": "$14–$15/hr",
+      "openings": 4000,
+      "highDemand": false,
+      "skills": [
+        "Household tasks",
+        "Attention to detail"
+      ],
+      "link": "https://jobs.micro1.ai/post/8944ed79-063d-43e2-a244-bd3185fbfb43?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Video Data Entry Specialist (LATAM)",
+      "category": "Data & Content",
+      "pay": "$6/hr",
+      "openings": 100,
+      "highDemand": true,
+      "skills": [
+        "Attention to detail",
+        "Data annotation"
+      ],
+      "link": "https://jobs.micro1.ai/post/25977272-dca9-4b3a-a676-51bdfeae0a3d?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "At-Home Video Recorder (LATAM)",
+      "category": "Data & Content",
+      "pay": "$6/hr",
+      "openings": 1000,
+      "highDemand": true,
+      "skills": [
+        "Smartphone",
+        "Video recording"
+      ],
+      "link": "https://jobs.micro1.ai/post/a1ecbac3-a024-4732-bce7-7ac2e447571d?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Gravador(a) de Vídeos com Smartphone",
+      "category": "Data & Content",
+      "pay": "$6/hr",
+      "openings": 1000,
+      "highDemand": false,
+      "skills": [
+        "Captura de vídeo",
+        "Atenção a detalhes"
+      ],
+      "link": "https://jobs.micro1.ai/post/15313f3d-5600-4d96-b45f-b8dfafbee976?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Visual Content Evaluator",
+      "category": "Data & Content",
+      "pay": "$21–$45/hr",
+      "openings": 1031,
+      "highDemand": true,
+      "skills": [
+        "Image evaluation",
+        "Visual content"
+      ],
+      "link": "https://jobs.micro1.ai/post/e4103061-f0e7-49a2-8fb2-e1a81e762cd0?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Generalist (US Only)",
+      "category": "Data & Content",
+      "pay": "$21–$45/hr",
+      "openings": 10000,
+      "highDemand": true,
+      "skills": [
+        "Image data annotation",
+        "Attention to detail"
+      ],
+      "link": "https://jobs.micro1.ai/post/2c46e489-6e77-42a6-a4f3-750ebb7ace5f?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Mathematics Expert",
+      "category": "STEM & Finance",
+      "pay": "$60–$120/hr",
+      "openings": 100,
+      "highDemand": true,
+      "skills": [
+        "Mathematics",
+        "Python",
+        "Programming languages"
+      ],
+      "link": "https://jobs.micro1.ai/post/9701abf9-febd-4f13-9183-80257478f22a?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Quantitative Rates Researcher",
+      "category": "STEM & Finance",
+      "pay": "$80–$150/hr",
+      "openings": 100,
+      "highDemand": false,
+      "skills": [
+        "Python",
+        "R"
+      ],
+      "link": "https://jobs.micro1.ai/post/c8cdec0c-76b7-40ae-9764-fb170200408a?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Rates trader",
+      "category": "STEM & Finance",
+      "pay": "$80–$100/hr",
+      "openings": 20,
+      "highDemand": true,
+      "skills": [
+        "Interest rate swaps",
+        "Swaptions trading"
+      ],
+      "link": "https://jobs.micro1.ai/post/3fee8e97-5dce-42bd-a8a1-68133f04449a?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "STEM Expert",
+      "category": "STEM & Finance",
+      "pay": "$60–$120/hr",
+      "openings": 10,
+      "highDemand": true,
+      "skills": [
+        "Biology"
+      ],
+      "link": "https://jobs.micro1.ai/post/366e3893-3656-4be7-8c6b-c236447b45b3?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Mechanical Engineering Expert",
+      "category": "STEM & Finance",
+      "pay": "$60–$120/hr",
+      "openings": 100,
+      "highDemand": true,
+      "skills": [
+        "Python",
+        "Mechanical engineering"
+      ],
+      "link": "https://jobs.micro1.ai/post/bb9f4d6d-ac5b-4cc6-b17d-db1a60d3b754?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Aerodynamics Expert",
+      "category": "STEM & Finance",
+      "pay": "$80–$120/hr",
+      "openings": 100,
+      "highDemand": true,
+      "skills": [
+        "Python",
+        "Aerodynamics"
+      ],
+      "link": "https://jobs.micro1.ai/post/fe5f2aeb-ec81-4511-8309-9ae96bab37f6?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Legal Expert (Human Rights Law)",
+      "category": "Legal",
+      "pay": "$80–$180/hr",
+      "openings": 20,
+      "highDemand": true,
+      "skills": [
+        "International human rights law",
+        "Human rights litigation"
+      ],
+      "link": "https://jobs.micro1.ai/post/7e5d9c72-cf06-4f90-a38a-5837ef0b7fd5?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Legal Expert (Property Law)",
+      "category": "Legal",
+      "pay": "$80–$130/hr",
+      "openings": 20,
+      "highDemand": true,
+      "skills": [
+        "Real property law",
+        "Real estate transactions"
+      ],
+      "link": "https://jobs.micro1.ai/post/2d55bd3f-8c9e-4cac-8a5f-d7d843994c96?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Legal Expert (Estate Planning Law)",
+      "category": "Legal",
+      "pay": "$80–$130/hr",
+      "openings": 20,
+      "highDemand": true,
+      "skills": [
+        "Estate planning",
+        "Trusts and estates law"
+      ],
+      "link": "https://jobs.micro1.ai/post/b2bd0e48-9dfe-47e4-9e9d-db26c1667c2f?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Legal Expert (Copyright Law)",
+      "category": "Legal",
+      "pay": "$80–$130/hr",
+      "openings": 20,
+      "highDemand": true,
+      "skills": [
+        "Copyright law",
+        "Copyright infringement"
+      ],
+      "link": "https://jobs.micro1.ai/post/2839c105-29ba-4fa4-b5db-c75ac97ace2b?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Legal Expert (Constitutional)",
+      "category": "Legal",
+      "pay": "$80–$130/hr",
+      "openings": 20,
+      "highDemand": true,
+      "skills": [
+        "Constitutional law",
+        "Constitutional litigation"
+      ],
+      "link": "https://jobs.micro1.ai/post/f7e23d01-7573-4c4b-990c-fa3febc4b36a?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Bankruptcy Attorney",
+      "category": "Legal",
+      "pay": "$100–$170/hr",
+      "openings": 45,
+      "highDemand": true,
+      "skills": [
+        "Bankruptcy law",
+        "Legal document analysis"
+      ],
+      "link": "https://jobs.micro1.ai/post/01c797e9-0eab-4a2f-988b-a0206e84f21d?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Litigator / Practicing Attorney (US)",
+      "category": "Legal",
+      "pay": "$100–$160/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Legal reasoning",
+        "Litigation practice"
+      ],
+      "link": "https://jobs.micro1.ai/post/50d0cd3d-0d16-4c70-9094-8a66bbc9dffb?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Litigation Attorney",
+      "category": "Legal",
+      "pay": "$80–$170/hr",
+      "openings": 100,
+      "highDemand": true,
+      "skills": [
+        "Litigation strategy",
+        "Legal research"
+      ],
+      "link": "https://jobs.micro1.ai/post/0c6952e3-b783-407c-a451-b92996992038?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Attorney",
+      "category": "Legal",
+      "pay": "$80–$150/hr",
+      "openings": 50,
+      "highDemand": false,
+      "skills": [
+        "Legal research",
+        "Legal writing"
+      ],
+      "link": "https://jobs.micro1.ai/post/f5b76e03-411a-4648-8f5f-10ff604317ef?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Legal Counsel",
+      "category": "Legal",
+      "pay": "$80–$150/hr",
+      "openings": 50,
+      "highDemand": false,
+      "skills": [
+        "Legal analysis",
+        "Contract drafting"
+      ],
+      "link": "https://jobs.micro1.ai/post/dac3063b-48c0-43ec-ae6d-98dfc4363350?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Personal Injury Lawyer",
+      "category": "Legal",
+      "pay": "$100–$170/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Legal reasoning",
+        "Issue-spotting"
+      ],
+      "link": "https://jobs.micro1.ai/post/47ae77fa-cc3b-40f5-bdc6-eca4d11cc73e?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Employment Lawyer",
+      "category": "Legal",
+      "pay": "$100–$170/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Employment law",
+        "Legal analysis"
+      ],
+      "link": "https://jobs.micro1.ai/post/68d31799-41cb-4899-987b-527eba2ef40a?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Tax Attorney",
+      "category": "Legal",
+      "pay": "$100–$170/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Tax law",
+        "Legal research"
+      ],
+      "link": "https://jobs.micro1.ai/post/abdb5807-b650-4eb8-b4e4-20a5a834301d?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Lawyer",
+      "category": "Legal",
+      "pay": "$100–$170/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Legal reasoning",
+        "Issue-spotting"
+      ],
+      "link": "https://jobs.micro1.ai/post/d484ab8c-eb8b-4b2f-b742-3d00719ca143?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Medical Doctor / Physician (Mexico Only)",
+      "category": "Medical",
+      "pay": "$110/hr",
+      "openings": 35,
+      "highDemand": true,
+      "skills": [
+        "Clinical expertise",
+        "Medical content review",
+        "English communication"
+      ],
+      "link": "https://jobs.micro1.ai/post/a8c0d211-1f48-46aa-b552-fd1e3fb6c8ba?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Hematology/Oncology Physician",
+      "category": "Medical",
+      "pay": "$180–$220/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Hematology",
+        "Oncology"
+      ],
+      "link": "https://jobs.micro1.ai/post/3eb00a85-16d4-41c8-abc8-5e3b26658f4f?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Senior Hematologist-Oncologist",
+      "category": "Medical",
+      "pay": "$220–$250/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Hematology",
+        "Oncology"
+      ],
+      "link": "https://jobs.micro1.ai/post/06614178-bc75-4fd3-ad14-4a2c1e09bbd5?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "French Language Expert (Belgium and Switzerland)",
+      "category": "Languages",
+      "pay": "$16–$45/hr",
+      "openings": 10,
+      "highDemand": false,
+      "skills": [
+        "French",
+        "Linguistics"
+      ],
+      "link": "https://jobs.micro1.ai/post/bf94339a-4c13-4562-a645-bf7e47e6ed99?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "French Language Expert (Canada)",
+      "category": "Languages",
+      "pay": "$16–$45/hr",
+      "openings": 10,
+      "highDemand": false,
+      "skills": [
+        "Canadian French",
+        "French"
+      ],
+      "link": "https://jobs.micro1.ai/post/a5b9de19-aa08-4b4f-ae5f-55dd5588d33a?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "French Language Expert (France)",
+      "category": "Languages",
+      "pay": "$16–$45/hr",
+      "openings": 10,
+      "highDemand": false,
+      "skills": [
+        "French",
+        "Dialect"
+      ],
+      "link": "https://jobs.micro1.ai/post/ddcdd544-5643-4cbf-8b01-08a083d4ec36?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Portuguese Language Expert (Portugal)",
+      "category": "Languages",
+      "pay": "$16–$45/hr",
+      "openings": 10,
+      "highDemand": false,
+      "skills": [
+        "Portuguese",
+        "Dialect"
+      ],
+      "link": "https://jobs.micro1.ai/post/12a7895e-f1d8-4831-bf45-47a5d4fced8b?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Portuguese Language Expert (Brazil)",
+      "category": "Languages",
+      "pay": "$16–$45/hr",
+      "openings": 10,
+      "highDemand": false,
+      "skills": [
+        "Brazilian Portuguese",
+        "Dialect"
+      ],
+      "link": "https://jobs.micro1.ai/post/3a6cc6dd-2765-4261-b282-a2451272d62b?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Spanish Language Expert (LATAM)",
+      "category": "Languages",
+      "pay": "$16–$45/hr",
+      "openings": 10,
+      "highDemand": false,
+      "skills": [
+        "LATAM Spanish",
+        "Dialect"
+      ],
+      "link": "https://jobs.micro1.ai/post/077f11f6-9326-483c-be15-bdfd37544daa?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Spanish Language Expert (Mexico)",
+      "category": "Languages",
+      "pay": "$16–$45/hr",
+      "openings": 10,
+      "highDemand": false,
+      "skills": [
+        "Mexican Spanish",
+        "Dialect"
+      ],
+      "link": "https://jobs.micro1.ai/post/909317e2-a084-453a-8e79-9670d891b1cd?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Telecommunications Customer Support Specialist",
+      "category": "Customer & Operations",
+      "pay": "$18–$28/hr",
+      "openings": 10,
+      "highDemand": false,
+      "skills": [
+        "Telecom customer support",
+        "Troubleshooting"
+      ],
+      "link": "https://jobs.micro1.ai/post/8530dd0e-d167-4c96-9f90-afc9d089a796?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Retail Customer Support Specialist",
+      "category": "Customer & Operations",
+      "pay": "$18–$28/hr",
+      "openings": 10,
+      "highDemand": false,
+      "skills": [
+        "Retail customer support",
+        "Order and returns"
+      ],
+      "link": "https://jobs.micro1.ai/post/62dcfd2e-e321-47c9-9e5c-450b29adf67f?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Airline Customer Service Specialist",
+      "category": "Customer & Operations",
+      "pay": "$18–$28/hr",
+      "openings": 10,
+      "highDemand": false,
+      "skills": [
+        "Airline customer service",
+        "Flight reservations"
+      ],
+      "link": "https://jobs.micro1.ai/post/7449e726-31ec-44cd-b457-435e14e083dc?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Travel Operations Specialist",
+      "category": "Customer & Operations",
+      "pay": "$20–$44/hr",
+      "openings": 10,
+      "highDemand": false,
+      "skills": [
+        "Travel booking",
+        "Customer experience"
+      ],
+      "link": "https://jobs.micro1.ai/post/33e8cb50-49fd-4fb9-996c-0b2d1744e069?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Customer Experience (CX) Specialist",
+      "category": "Customer & Operations",
+      "pay": "$20–$44/hr",
+      "openings": 10,
+      "highDemand": false,
+      "skills": [
+        "Shopping QA",
+        "Concierge services"
+      ],
+      "link": "https://jobs.micro1.ai/post/06058dd9-0415-4c0d-a638-9f359cbe8d76?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Professional Shopper",
+      "category": "Customer & Operations",
+      "pay": "$20–$44/hr",
+      "openings": 10,
+      "highDemand": false,
+      "skills": [
+        "Product research",
+        "Price comparison"
+      ],
+      "link": "https://jobs.micro1.ai/post/708edbc2-6ef7-487d-a41b-0fb0603f06a8?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Category Manager",
+      "category": "Customer & Operations",
+      "pay": "$20–$44/hr",
+      "openings": 10,
+      "highDemand": false,
+      "skills": [
+        "Grocery",
+        "Electronics"
+      ],
+      "link": "https://jobs.micro1.ai/post/9a74b7b0-b1c3-4aae-b673-b821f7731daa?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Research Marketing Lead",
+      "category": "Business & Product",
+      "pay": "$7–$8/hr",
+      "openings": 1,
+      "highDemand": true,
+      "skills": [
+        "Research QA",
+        "GTM strategy"
+      ],
+      "link": "https://jobs.micro1.ai/post/09891468-1722-465f-b47e-f420c9f1e154?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Data Partnerships Manager",
+      "category": "Business & Product",
+      "pay": "$20–$30/hr",
+      "openings": 1,
+      "highDemand": true,
+      "skills": [
+        "Negotiation",
+        "Prospecting"
+      ],
+      "link": "https://jobs.micro1.ai/post/64592ac1-f184-4c0f-9e5d-796cccdd499b?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Product Owner",
+      "category": "Business & Product",
+      "pay": "$7–$9/hr",
+      "openings": 1,
+      "highDemand": true,
+      "skills": [
+        "Product ownership",
+        "Data-driven product management"
+      ],
+      "link": "https://jobs.micro1.ai/post/01f86047-2c74-46bb-a6fc-a00e1be3dd5b?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Referral Partnerships Manager",
+      "category": "Business & Product",
+      "pay": "$20–$40/hr",
+      "openings": 1,
+      "highDemand": true,
+      "skills": [
+        "Recruitment marketing",
+        "Project management"
+      ],
+      "link": "https://jobs.micro1.ai/post/479e1aa8-2d92-42b7-a77c-aa83369cece8?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Veterans Combat and Defense Expert",
+      "category": "Defense & Security",
+      "pay": "$50–$100/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Military operations",
+        "Operational planning"
+      ],
+      "link": "https://jobs.micro1.ai/post/f6225bb8-4009-4135-8c21-8ae5db9b9324?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Emerging Technology Threat / Strategic Competition Advisor",
+      "category": "Defense & Security",
+      "pay": "$35–$85/hr",
+      "openings": 10,
+      "highDemand": false,
+      "skills": [
+        "Emerging-tech threat assessment",
+        "Strategic reasoning"
+      ],
+      "link": "https://jobs.micro1.ai/post/4e0beed7-fd35-4d80-8392-0d3531784fc2?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Counterintelligence Technology & Program SME — AI Evaluation (Contract)",
+      "category": "Defense & Security",
+      "pay": "$90–$140/hr",
+      "openings": 1,
+      "highDemand": false,
+      "skills": [
+        "CI threat judgement",
+        "Program and technology sense"
+      ],
+      "link": "https://jobs.micro1.ai/post/69ce4f10-b0cc-4ca0-93d4-ad306254e0cc?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Veterans Intelligence Expert",
+      "category": "Defense & Security",
+      "pay": "$50–$100/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Military intelligence",
+        "Threat assessment"
+      ],
+      "link": "https://jobs.micro1.ai/post/a9390089-b803-4bb8-b331-464dbee77842?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Veterans Legal and Human Rights Expert",
+      "category": "Defense & Security",
+      "pay": "$50–$100/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Military law",
+        "Operational law"
+      ],
+      "link": "https://jobs.micro1.ai/post/c192a6ae-864f-4e73-8bcb-011061f60eb3?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Veterans Program",
+      "category": "Defense & Security",
+      "pay": "$50–$100/hr",
+      "openings": 100,
+      "highDemand": true,
+      "skills": [
+        "Analytical thinking",
+        "Problem-solving"
+      ],
+      "link": "https://jobs.micro1.ai/post/b3a3b6bc-ce14-4231-84c2-94a836311a42?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Music Teacher",
+      "category": "Domain Experts",
+      "pay": "$15–$45/hr",
+      "openings": 1000,
+      "highDemand": true,
+      "skills": [
+        "Chord progression",
+        "Key progressions",
+        "Music teaching"
+      ],
+      "link": "https://jobs.micro1.ai/post/a9b8446c-a093-40bd-933d-6c17d62fa88a?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Social Work & Community Services Professional (Domain Expert)",
+      "category": "Domain Experts",
+      "pay": "$20–$80/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Case management",
+        "Confidentiality"
+      ],
+      "link": "https://jobs.micro1.ai/post/73f171be-bee6-43d5-8288-94be542da4af?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Creative Professional (Domain Expert)",
+      "category": "Domain Experts",
+      "pay": "$20–$80/hr",
+      "openings": 50,
+      "highDemand": true,
+      "skills": [
+        "Creative judgment",
+        "Portfolio development"
+      ],
+      "link": "https://jobs.micro1.ai/post/77822f84-13a2-4ff0-a106-abf2176d0397?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    },
+    {
+      "company": "micro1",
+      "role": "Teacher (US/CAN based)",
+      "category": "Domain Experts",
+      "pay": "$20–$80/hr",
+      "openings": 30,
+      "highDemand": true,
+      "skills": [
+        "Lesson plan evaluation",
+        "Curriculum design"
+      ],
+      "link": "https://jobs.micro1.ai/post/16976333-465a-41b8-ac6e-c168e958f423?referralCode=b42811d1-dfe5-4c33-b230-b3c71dad50bd&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+    }
+  ]
+}
