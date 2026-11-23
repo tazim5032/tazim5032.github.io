@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "how-i-manage-my-team",
+    "title": "How I run engineering work and keep a remote team healthy",
+    "date": "2026-11-22",
+    "summary": "From engineer to manager at Eagle 3D: how I set priorities, remove blockers, protect quality, work with clients and keep a remote team sustainable.",
+    "tags": [
+      "management",
+      "leadership"
+    ],
+    "readingTime": "5 min read"
+  },
+  {
+    "slug": "pixel-streaming-explained",
+    "title": "Pixel Streaming explained: running Unreal Engine in the browser",
+    "date": "2026-11-20",
+    "summary": "How Pixel Streaming delivers high-end Unreal Engine experiences to any browser, the components involved, and what makes it hard to run reliably for clients.",
+    "tags": [
+      "unreal engine",
+      "pixel streaming"
+    ],
+    "readingTime": "5 min read"
+  },
+  {
+    "slug": "lessons-from-rating-ai-responses",
+    "title": "What I learned rating AI responses at Scale AI",
+    "date": "2026-11-18",
+    "summary": "Six habits from my time as an AI Trainer that changed how I review code, give feedback and judge quality as an engineer and manager.",
+    "tags": [
+      "ai",
+      "quality"
+    ],
+    "readingTime": "4 min read"
+  },
+  {
+    "slug": "from-competitive-programmer-to-manager",
+    "title": "From competitive programmer to engineering manager",
+    "date": "2026-11-15",
+    "summary": "What 100+ contests and 1,500+ problems taught me that still helps in leading a team of 8, and the contest habits I had to unlearn.",
+    "tags": [
+      "career",
+      "leadership"
+    ],
+    "readingTime": "4 min read"
+  },
+  {
+    "slug": "welcome",
+    "title": "Welcome to my blog",
+    "date": "2026-11-10",
+    "summary": "Why I'm starting to write, and the topics I plan to cover: full-stack engineering, real-time 3D, leading a remote team and evaluating AI models.",
+    "tags": [
+      "career"
+    ],
+    "readingTime": "2 min read"
+  }
+]
