@@ -1,4 +1,4 @@
-From August 2023 to January 2024 I worked as an AI Trainer at Scale AI. My job was to rate AI responses for accuracy, quality and instruction-following, write prompts, and give feedback that would help improve the models. I can't share project details, but the habits I built there changed how I review work as an engineer and as a manager.
+From August 2023 to January 2024 I worked as an AI Trainer at Scale AI. My job was to rate AI responses for accuracy, quality and instruction-following, write prompts, and give feedback that would help improve the models. I can't share project details, but the habits I built there changed how I review work as an engineer.
 
 ## 1. "Sounds right" is not the same as "is right"
 

@@ -1,4 +1,4 @@
-Hi, I'm Mohammad Fakhrul Islam. I'm a software engineer and currently a manager at **Eagle 3D**, where I coordinate software development work with engineers and international clients.
+Hi, I'm Mohammad Fakhrul Islam. I'm a software engineer who works remotely with international clients, builds full-stack web apps and helps teams run Unreal Engine in the browser with Pixel Streaming.
 
 This blog is where I'll write down what I learn along the way.
 
@@ -6,7 +6,7 @@ This blog is where I'll write down what I learn along the way.
 
 - **Full-stack engineering**: building and maintaining apps with React, Next.js, Express and MongoDB, including auth, payments and admin dashboards.
 - **Real-time 3D in the browser**: working with Unreal Engine and Pixel Streaming.
-- **Leading remote work**: keeping delivery on track, unblocking engineers and working with clients across time zones.
+- **Working remotely**: keeping delivery on track and working with clients across time zones.
 - **AI evaluation**: what I learned rating model responses for accuracy and instruction-following as an AI Trainer at Scale AI.
 - **Problem solving**: lessons from 100+ programming contests and 1,500+ solved problems.
 
