@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JobFit privacy policy</title>
+    <style>
+      :root {
+        --bg: #f6f5f2;
+        --ink: #23211c;
+        --muted: #6b665c;
+        --rule: #ddd8cd;
+        --accent: #b4532a;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #15140f;
+          --ink: #eeeae0;
+          --muted: #b9b3a6;
+          --rule: #3b372e;
+          --accent: #e37a52;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font:
+          17px/1.65 system-ui,
+          sans-serif;
+      }
+      main {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 48px 16px 80px;
+      }
+      h1 {
+        font:
+          600 34px/1.2 Georgia,
+          serif;
+        margin: 0 0 4px;
+      }
+      h2 {
+        font:
+          600 21px/1.3 Georgia,
+          serif;
+        margin: 36px 0 8px;
+      }
+      .date {
+        color: var(--muted);
+        margin: 0 0 28px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid var(--rule);
+      }
+      a {
+        color: var(--accent);
+      }
+      li {
+        margin: 4px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>JobFit privacy policy</h1>
+      <p class="date">Last updated 25 November 2026</p>
+
+      <p>
+        JobFit is a browser extension that compares your résumé with the job post you are viewing. It has no
+        server and no account. This page explains what it stores and where your data goes.
+      </p>
+
+      <h2>What JobFit stores</h2>
+      <p>Everything below is kept in your browser's extension storage, on your device only:</p>
+      <ul>
+        <li>Your résumé text, the skills found in it and the file name.</li>
+        <li>AI provider keys you choose to add (Groq, Google Gemini or OpenRouter).</li>
+        <li>Your settings, such as letter length, tone and theme.</li>
+        <li>Saved jobs in the tracker: title, company, location, link, status, score, notes and dates.</li>
+        <li>Recent analysis results and cover letters, so they open instantly the second time.</li>
+      </ul>
+      <p>JobFit does not use cookies, analytics, advertising or tracking of any kind.</p>
+
+      <h2>What leaves your device</h2>
+      <p>
+        Only when you add an AI key and use an AI feature (AI analysis, AI red-flag check or cover letter),
+        JobFit sends the job post's text and your résumé text to the one AI provider you picked, using your
+        key. Nothing is sent anywhere else, and nothing is sent at all if you use the offline score only.
+      </p>
+      <p>That provider handles the request under its own terms and privacy policy:</p>
+      <ul>
+        <li><a href="https://groq.com/privacy-policy/">Groq privacy policy</a></li>
+        <li><a href="https://policies.google.com/privacy">Google privacy policy</a> (Gemini API)</li>
+        <li><a href="https://openrouter.ai/privacy">OpenRouter privacy policy</a></li>
+      </ul>
+      <p>Your keys are sent only to the provider they belong to. They are never included in data exports.</p>
+
+      <h2>Reading web pages</h2>
+      <p>
+        JobFit reads the page you are on only to find a job post: on supported job sites when the page loads,
+        and on any other page when you open JobFit there or right-click selected text and choose "Check this
+        text with JobFit". It does not read your browsing history.
+      </p>
+
+      <h2>Your control</h2>
+      <ul>
+        <li>Settings → Export all data downloads a copy of everything JobFit stores, without your keys.</li>
+        <li>Settings → Delete all data erases it. Removing the extension also erases it.</li>
+        <li>The tracker can export your saved jobs as CSV or JSON.</li>
+      </ul>
+
+      <h2>Selling and sharing</h2>
+      <p>
+        JobFit does not sell, rent or share your data, and does not use it for anything other than the
+        features described above. The use of information received from Google APIs follows the Chrome Web
+        Store User Data Policy, including the Limited Use requirements.
+      </p>
+
+      <h2>Changes and contact</h2>
+      <p>
+        If this policy changes, the date at the top changes with it. Questions: open an issue or message the
+        developer through the contact details on the Chrome Web Store listing.
+      </p>
+    </main>
+  </body>
+</html>

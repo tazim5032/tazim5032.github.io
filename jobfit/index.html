@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JobFit - see how your résumé fits a job post</title>
+    <meta
+      name="description"
+      content="A browser extension that scores a job post against your résumé, flags scams and writes a cover letter. Free, private, no account."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Mono&family=Instrument+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --paper: #15140f;
+        --surface: #1d1b16;
+        --wash: #25231d;
+        --ink: #eeeae0;
+        --ink-2: #b5afa2;
+        --faint: #7f796c;
+        --rule: #2d2a23;
+        --rule-strong: #3b372e;
+        --accent: #e37a52;
+        --accent-hover: #ee926e;
+        --on-accent: #15140f;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: 'Instrument Sans', system-ui, sans-serif;
+        font-size: 17px;
+        line-height: 1.6;
+      }
+      a {
+        color: var(--accent);
+      }
+      .wrap {
+        max-width: 1040px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: 'Fraunces', Georgia, serif;
+        font-weight: 700;
+        line-height: 1.15;
+        margin: 0;
+      }
+      header.top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        border-bottom: 1px solid var(--rule);
+      }
+      .brand {
+        font-family: 'Fraunces', Georgia, serif;
+        font-weight: 700;
+        font-size: 22px;
+      }
+      .brand span {
+        color: var(--accent);
+      }
+      nav a {
+        color: var(--ink-2);
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: 15px;
+      }
+      nav a:hover {
+        color: var(--ink);
+      }
+      .hero {
+        padding: 72px 0 56px;
+        max-width: 720px;
+      }
+      .hero h1 {
+        font-size: clamp(2.2rem, 6vw, 3.6rem);
+      }
+      .hero p {
+        color: var(--ink-2);
+        font-size: 1.15rem;
+        margin: 20px 0 28px;
+      }
+      .btn {
+        display: inline-block;
+        background: var(--accent);
+        color: var(--on-accent);
+        font-weight: 600;
+        text-decoration: none;
+        padding: 12px 22px;
+        border-radius: 3px;
+      }
+      .btn:hover {
+        background: var(--accent-hover);
+      }
+      .btn.ghost {
+        background: none;
+        color: var(--ink);
+        border: 1px solid var(--rule-strong);
+        margin-left: 10px;
+      }
+      .note {
+        color: var(--faint);
+        font-size: 14px;
+        margin-top: 14px;
+      }
+      .feature {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        align-items: center;
+        padding: 48px 0;
+        border-top: 1px solid var(--rule);
+      }
+      .feature.flip .text {
+        order: 2;
+      }
+      .feature h2 {
+        font-size: 1.9rem;
+        margin-bottom: 12px;
+      }
+      .feature p {
+        color: var(--ink-2);
+        margin: 0;
+      }
+      .shot {
+        background: var(--surface);
+        border: 1px solid var(--rule-strong);
+        border-radius: 3px;
+        padding: 12px;
+        text-align: center;
+      }
+      .shot img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+      .shot.panel img {
+        max-height: 560px;
+        width: auto;
+      }
+      section.block {
+        padding: 48px 0;
+        border-top: 1px solid var(--rule);
+      }
+      section.block h2 {
+        font-size: 1.9rem;
+        margin-bottom: 20px;
+      }
+      ol.steps {
+        margin: 0;
+        padding-left: 1.3em;
+        max-width: 640px;
+      }
+      ol.steps li {
+        margin-bottom: 10px;
+      }
+      code {
+        font-family: 'IBM Plex Mono', ui-monospace, Consolas, monospace;
+        font-size: 0.9em;
+        background: var(--wash);
+        padding: 1px 6px;
+        border-radius: 3px;
+      }
+      .privacy {
+        max-width: 640px;
+        color: var(--ink-2);
+      }
+      footer {
+        border-top: 1px solid var(--rule);
+        padding: 28px 0 48px;
+        color: var(--faint);
+        font-size: 14px;
+      }
+      @media (max-width: 760px) {
+        body {
+          font-size: 16px;
+        }
+        .hero {
+          padding: 44px 0 36px;
+        }
+        .feature {
+          grid-template-columns: 1fr;
+          gap: 24px;
+          padding: 36px 0;
+        }
+        .feature.flip .text {
+          order: 0;
+        }
+        .btn.ghost {
+          margin: 12px 0 0;
+        }
+        nav a:first-child {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="top">
+        <div class="brand">Job<span>Fit</span></div>
+        <nav><a href="#install">Install</a><a href="#privacy">Privacy</a></nav>
+      </header>
+
+      <div class="hero">
+        <h1>See how your résumé fits the job before you apply.</h1>
+        <p>
+          JobFit reads the job post you are looking at and shows a match score, the skills you are missing,
+          red flags, and a cover letter written from your own résumé. It lives in your browser's side panel.
+        </p>
+        <a class="btn" href="jobfit.zip" download>Download JobFit (zip)</a>
+        <a class="btn ghost" href="#install">How to install</a>
+        <p class="note">Free. No account. Works in Chrome, Edge and other Chromium browsers.</p>
+      </div>
+
+      <div class="feature">
+        <div class="text">
+          <h2>A score you can check</h2>
+          <p>
+            Skills, years of experience, seniority and workplace are compared with your résumé on your device,
+            with no AI needed. You see which skills you have and which the post asks for that you do not show.
+          </p>
+        </div>
+        <div class="shot panel">
+          <img src="img/panel-score.png" alt="JobFit side panel showing a score of 78 and matched skills" />
+        </div>
+      </div>
+
+      <div class="feature flip">
+        <div class="text">
+          <h2>Spot a bad post early</h2>
+          <p>
+            Payment requests, sensitive details asked for up front, interviews over chat apps. JobFit flags
+            what it found and why it matters, before you hand anything over.
+          </p>
+        </div>
+        <div class="shot panel">
+          <img src="img/panel-flags.png" alt="JobFit side panel listing red flags on a scam-like post" />
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="text">
+          <h2>A letter from your own facts</h2>
+          <p>
+            Use a free key from Groq, Google AI Studio or OpenRouter to write a cover letter and tailored
+            résumé bullets. It only uses what is in your résumé, and anything it made up is flagged for you to
+            check.
+          </p>
+        </div>
+        <div class="shot panel">
+          <img src="img/panel-letter.png" alt="JobFit Letter tab with a cover letter and tailored bullets" />
+        </div>
+      </div>
+
+      <div class="feature flip">
+        <div class="text">
+          <h2>Keep track of every application</h2>
+          <p>
+            Save posts, move them from saved to applied, interview and offer, add notes, and export to CSV or
+            JSON. Everything stays in your browser.
+          </p>
+        </div>
+        <div class="shot">
+          <img src="img/tracker.png" alt="JobFit tracker listing eight sample applications" />
+        </div>
+      </div>
+
+      <section class="block" id="install">
+        <h2>Install</h2>
+        <ol class="steps">
+          <li>
+            <a href="jobfit.zip" download>Download the zip</a> and unzip it into a folder you will keep.
+          </li>
+          <li>Open <code>chrome://extensions</code> and turn on <strong>Developer mode</strong>.</li>
+          <li>Click <strong>Load unpacked</strong> and choose the unzipped folder.</li>
+          <li>
+            Open a job post and click the JobFit icon, then Open side panel. Paste your résumé, and optionally
+            add a free AI key.
+          </li>
+        </ol>
+        <p class="note">
+          Works on LinkedIn Jobs, Indeed, Greenhouse, Lever and Workday, and on any other page through the
+          side panel.
+        </p>
+        <p style="margin-top: 20px"><a class="btn" href="jobfit.zip" download>Download JobFit (zip)</a></p>
+      </section>
+
+      <section class="block" id="privacy">
+        <h2>Privacy</h2>
+        <p class="privacy">
+          Your résumé, keys, settings and tracker are stored in your browser on your device. There is no
+          JobFit server and no account. Job text is sent only to the AI provider you choose, only when you ask
+          for an AI feature. With no provider selected, nothing leaves your computer.
+        </p>
+        <p><a href="privacy.html">Full privacy policy</a></p>
+      </section>
+
+      <footer>JobFit is open source. Screenshots use a fictional résumé.</footer>
+    </div>
+  </body>
+</html>
