@@ -3,3 +3,4 @@ dist/
 *.zip
 *.log
 index.backup.html
+!jobfit/jobfit.zip
