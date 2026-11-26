@@ -1,5 +1,16 @@
 [
   {
+    "slug": "product-management-for-pixel-streaming",
+    "title": "Managing Pixel Streaming as a product",
+    "date": "2026-11-26",
+    "summary": "Why a streaming product is measured in sessions, not pages, and how reliability, GPU cost and very different clients shape what gets built first.",
+    "tags": [
+      "product management",
+      "pixel streaming"
+    ],
+    "readingTime": "4 min read"
+  },
+  {
     "slug": "pixel-streaming-explained",
     "title": "Pixel Streaming explained: running Unreal Engine in the browser",
     "date": "2026-11-20",
