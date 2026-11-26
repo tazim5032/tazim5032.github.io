@@ -58,10 +58,12 @@
     <div class="filters">
       <input class="search" id="q" type="search" placeholder="Search role or skill…" aria-label="Search roles">
     </div>
-    <div class="tags" id="cats" aria-label="Filter by category" style="margin-top:14px"></div>
+    <div class="tags" id="plats" aria-label="Filter by platform" style="margin-top:14px"></div>
+    <div class="tags" id="cats" aria-label="Filter by category" style="margin-top:10px"></div>
     <p class="role-count" id="count"></p>
   </div>
   <div class="roles" id="list"><p class="empty">Loading roles…</p></div>
+  <p style="text-align:center;margin:24px 0 0"><button class="tagbtn" type="button" id="more" hidden>Show more roles</button></p>
 </main>
 
 <footer>
@@ -71,8 +73,8 @@
 <script src="site.js"></script>
 <script>
 (function(){
-  var list=document.getElementById('list'),q=document.getElementById('q'),cats=document.getElementById('cats'),count=document.getElementById('count'),boards=document.getElementById('boards');
-  var roles=[],active='';
+  var list=document.getElementById('list'),q=document.getElementById('q'),cats=document.getElementById('cats'),count=document.getElementById('count'),boards=document.getElementById('boards'),plats=document.getElementById('plats'),more=document.getElementById('more');
+  var roles=[],active='',plat='',PAGE=60,limit=PAGE;
   var esc=Site.esc;
   function safeUrl(u){return /^https:\/\//i.test(u||'')?u:'';}
   function applyBtn(url,label,ref){return url?'<a class="btn primary sm" href="'+esc(url)+'" target="_blank" rel="noopener sponsored" data-ref="'+esc(ref)+'">'+label+' <svg class="i"><use href="#i-ext"/></svg></a>':'';}
@@ -90,10 +92,11 @@
     var term=q.value.trim().toLowerCase();
     var shown=roles.filter(function(r){
       var hay=[r.role,r.company,r.category,r.location,r.note].concat(r.skills||[]).join(' ').toLowerCase();
-      return (!term||hay.indexOf(term)>-1)&&(!active||r.category===active);
+      return (!term||hay.indexOf(term)>-1)&&(!active||r.category===active)&&(!plat||r.company===plat);
     });
-    count.textContent=shown.length+' of '+roles.length+' roles';
-    list.innerHTML=shown.length?shown.map(card).join(''):'<p class="empty">'+(roles.length?'No roles match that search.':'No open roles right now. Check back soon.')+'</p>';
+    count.textContent=shown.length+' of '+roles.length+' roles'+(shown.length>limit?' · showing '+limit:'');
+    more.hidden=shown.length<=limit;
+    list.innerHTML=shown.length?shown.slice(0,limit).map(card).join(''):'<p class="empty">'+(roles.length?'No roles match that search.':'No open roles right now. Check back soon.')+'</p>';
     Site.observeReveals(list);
   }
   fetch('referrals.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(data){
@@ -103,20 +106,32 @@
     boards.innerHTML=(data.boards||[]).map(function(b){
       // "List below updated" only for platforms that actually have roles listed below.
       var listed=roles.some(function(r){return r.company===b.company;});
-      return '<div class="card board"><div><b>'+esc(b.title)+'</b><span>'+esc(b.note||'')+(listed&&data.updated?' List below updated '+Site.fmtDate(data.updated)+'.':'')+'</span></div>'+applyBtn(safeUrl(b.link),'View all jobs',b.company+' - all roles')+'</div>';
+      return '<div class="card board"><div><b>'+esc(b.title)+'</b><span>'+esc(b.note||'')+(listed&&(b.updated||data.updated)?' List below updated '+Site.fmtDate(b.updated||data.updated)+'.':'')+'</span></div>'+applyBtn(safeUrl(b.link),'View all jobs',b.company+' - all roles')+'</div>';
     }).join('');
     var seen={},order=[];roles.forEach(function(r){if(r.category&&!seen[r.category]){seen[r.category]=0;order.push(r.category);}seen[r.category]++;});
     cats.innerHTML=order.length>1?['<button class="tagbtn" type="button" data-cat="" aria-pressed="true">All ('+roles.length+')</button>'].concat(order.map(function(c){
       return '<button class="tagbtn" type="button" data-cat="'+esc(c)+'" aria-pressed="false">'+esc(c)+' ('+seen[c]+')</button>';
     })).join(''):'';
+    var byCo={},cos=[];roles.forEach(function(r){if(!(r.company in byCo)){byCo[r.company]=0;cos.push(r.company);}byCo[r.company]++;});
+    plats.innerHTML=cos.length>1?['<button class="tagbtn" type="button" data-plat="" aria-pressed="true">All platforms ('+roles.length+')</button>'].concat(cos.map(function(c){
+      return '<button class="tagbtn" type="button" data-plat="'+esc(c)+'" aria-pressed="false">'+esc(c)+' ('+byCo[c]+')</button>';
+    })).join(''):'';
     render();
   }).catch(function(){list.innerHTML='<p class="empty">Roles could not be loaded. Open this site through a web server (npm start).</p>';});
-  q.addEventListener('input',render);
+  function reset(){limit=PAGE;render();}
+  q.addEventListener('input',reset);
+  more.addEventListener('click',function(){limit+=PAGE;render();});
+  plats.addEventListener('click',function(e){
+    var b=e.target.closest('.tagbtn');if(!b)return;
+    plat=b.getAttribute('data-plat');
+    [].forEach.call(plats.children,function(x){x.setAttribute('aria-pressed',String(x===b));});
+    reset();
+  });
   cats.addEventListener('click',function(e){
     var b=e.target.closest('.tagbtn');if(!b)return;
     active=b.getAttribute('data-cat');
     [].forEach.call(cats.children,function(x){x.setAttribute('aria-pressed',String(x===b));});
-    render();
+    reset();
   });
   document.addEventListener('click',function(e){
     var a=e.target.closest('a[data-ref]');
