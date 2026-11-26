@@ -101,7 +101,9 @@
     var today=new Date().toISOString().slice(0,10);
     roles=(data.roles||[]).filter(function(r){return !r.hidden&&(!r.deadline||r.deadline>=today);});
     boards.innerHTML=(data.boards||[]).map(function(b){
-      return '<div class="card board"><div><b>'+esc(b.title)+'</b><span>'+esc(b.note||'')+(data.updated?' List below updated '+Site.fmtDate(data.updated)+'.':'')+'</span></div>'+applyBtn(safeUrl(b.link),'View all jobs',b.company+' - all roles')+'</div>';
+      // "List below updated" only for platforms that actually have roles listed below.
+      var listed=roles.some(function(r){return r.company===b.company;});
+      return '<div class="card board"><div><b>'+esc(b.title)+'</b><span>'+esc(b.note||'')+(listed&&data.updated?' List below updated '+Site.fmtDate(data.updated)+'.':'')+'</span></div>'+applyBtn(safeUrl(b.link),'View all jobs',b.company+' - all roles')+'</div>';
     }).join('');
     var seen={},order=[];roles.forEach(function(r){if(r.category&&!seen[r.category]){seen[r.category]=0;order.push(r.category);}seen[r.category]++;});
     cats.innerHTML=order.length>1?['<button class="tagbtn" type="button" data-cat="" aria-pressed="true">All ('+roles.length+')</button>'].concat(order.map(function(c){
