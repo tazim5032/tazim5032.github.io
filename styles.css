@@ -57,7 +57,6 @@ ul{margin:0}
 small{font-size:var(--fs-caption)}
 .wrap{max-width:var(--maxw);margin:0 auto;padding-inline:var(--gutter)}
 .i{width:16px;height:16px;flex:none;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;vertical-align:-3px}
-.reveal{}
 .em{font-style:italic;font-weight:inherit}
 .mono-badge,.avatar,.logo,.logo-sq,.glyph,.pillar .ic,.skill h3 .ic,.facts .ic,.edu .ic,.disclosure .ic{display:none}
 
@@ -355,6 +354,63 @@ main > .post-list,main > .roles{margin-bottom:96px}
   .article{padding:40px 0 64px}
   .cta .btn{flex:1 1 auto}
 }
+/* ---- Motion ---- */
+/* 1. Scroll reveal (hidden state only when JS has run) */
+.js .reveal{transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1)}
+.js .reveal:not(.in){opacity:0;transform:translateY(14px)}
+.js .hero .reveal:not(.in){opacity:1;transform:none}
+
+/* 2. Hero entrance (first visit per session; class set in <head>) */
+@keyframes heroIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.hero-anim .hero > div > *,.hero-anim .hero > aside{animation:heroIn .5s cubic-bezier(.2,.7,.2,1) backwards}
+.hero-anim .hero > div > :nth-child(2){animation-delay:.07s}
+.hero-anim .hero > div > :nth-child(3){animation-delay:.14s}
+.hero-anim .hero > div > :nth-child(4){animation-delay:.21s}
+.hero-anim .hero > div > :nth-child(5){animation-delay:.28s}
+.hero-anim .hero > aside{animation-delay:.35s}
+
+/* 3. Project previews */
+.shot{position:relative;aspect-ratio:16/9;margin:0 0 20px;overflow:hidden;border:1px solid var(--rule-strong);border-radius:var(--radius);background:var(--surface)}
+.shot img{display:block;width:100%;height:auto;max-width:none;transform:translateY(0);will-change:auto}
+@media (hover:hover) and (pointer:fine){
+  .shot img{transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+  .proj:hover .shot img,.proj:focus-within .shot img{transform:translateY(-62%);transition:transform 7s cubic-bezier(.45,0,.55,1) .15s}
+}
+@media (max-width:600px){.shot{aspect-ratio:2/1;margin-bottom:16px}}
+
+/* 4. Page transitions */
+@view-transition{navigation:auto}
+::view-transition-old(root),::view-transition-new(root){animation-duration:.18s;animation-timing-function:ease-out}
+::view-transition-group(*){animation-duration:.3s;animation-timing-function:cubic-bezier(.2,.7,.2,1)}
+
+/* 5. Details */
+.status i{position:relative}
+.status i::after{content:"";position:absolute;inset:0;border-radius:50%;background:var(--accent);opacity:0;animation:pulse 3.2s ease-out infinite}
+@keyframes pulse{0%{transform:scale(1);opacity:.4}70%,100%{transform:scale(2.6);opacity:0}}
+.nav a{background:linear-gradient(var(--accent),var(--accent)) no-repeat 0 100%/0 2px;background-origin:border-box;transition:color .15s,border-color .15s,background-size .28s cubic-bezier(.2,.7,.2,1)}
+.nav a:hover{background-size:100% 2px}
+:is(p,li,footer,.contact-list,.article) a:not(.btn){text-decoration:none;padding-bottom:1px;
+  background:linear-gradient(currentColor,currentColor) no-repeat 0 100%/0 1px,linear-gradient(color-mix(in srgb,currentColor 38%,transparent),color-mix(in srgb,currentColor 38%,transparent)) no-repeat 0 100%/100% 1px;
+  transition:color .15s,background-size .28s cubic-bezier(.2,.7,.2,1)}
+:is(p,li,footer,.contact-list,.article) a:not(.btn):hover{text-decoration:none;background-size:100% 1px,100% 1px}
+/* Header: background on a pseudo-element so compacting never changes layout height */
+.top{background:none;border-bottom-color:transparent!important}
+.top::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--paper);border-bottom:1px solid var(--rule);
+  transition:transform .25s cubic-bezier(.2,.7,.2,1),background-color .25s,border-color .25s}
+.top .wrap{transition:transform .25s cubic-bezier(.2,.7,.2,1)}
+.top.scrolled::before{border-bottom-color:var(--rule-strong)}
+.top.compact::before{transform:translateY(-8px);background:color-mix(in srgb,var(--paper) 88%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.top.compact .wrap{transform:translateY(-6px)}
+@media (max-width:980px){.top.compact::before{transform:translateY(-6px)}.top.compact .wrap{transform:translateY(-4px)}}
+
+@media (prefers-reduced-motion: reduce){
+  .js .reveal:not(.in){opacity:1;transform:none}
+  .status i::after{display:none}
+  .shot img,.proj:hover .shot img,.proj:focus-within .shot img{transform:none!important}
+  @view-transition{navigation:none}
+  .top::before,.top .wrap{transition:none}
+}
+
 @media (prefers-reduced-motion: reduce){
   html{scroll-behavior:auto}
   *,*::before,*::after{transition-duration:.01ms!important;animation:none!important}

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>document.documentElement.classList.add("js")</script>
+<script>try{if(!sessionStorage.getItem("heroSeen")){sessionStorage.setItem("heroSeen","1");document.documentElement.classList.add("hero-anim")}}catch(e){}</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mohammad Fakhrul Islam | Software Engineer</title>
@@ -14,7 +16,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,400..700,0..100;1,9..144,400..700,0..100&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<script>document.documentElement.classList.add('js')</script>
 <link rel="stylesheet" href="styles.css">
 <script src="analytics.js"></script>
 </head>
@@ -180,6 +181,7 @@
       <article class="card proj reveal">
         <div class="cover"><span class="cat">Chrome extension · AI</span><span class="glyph"><svg class="i"><use href="#i-brief"/></svg></span></div>
         <div class="proj-body">
+          <div class="shot"><img src="img/projects/jobfit.webp" width="640" height="1200" loading="lazy" decoding="async" alt="JobFit Chrome extension landing page with the match score demo and download"></div>
           <h3>JobFit</h3>
           <p>A Chrome extension that scores how well your résumé fits the job post you are viewing: an offline match score, missing skills, scam and red-flag checks with the sentence that triggered them, streamed cover letters with a fact check against your résumé, and an application tracker. Runs on free AI models with your own key; all data stays on your device.</p>
           <div class="stack"><span>React</span><span>TypeScript</span><span>Manifest V3</span><span>Zod</span><span>Playwright</span></div>
@@ -189,6 +191,7 @@
       <article class="card proj reveal">
         <div class="cover"><span class="cat">SaaS · Commercial</span><span class="glyph"><svg class="i"><use href="#i-cap"/></svg></span></div>
         <div class="proj-body">
+          <div class="shot"><img src="img/projects/coachingdesk.webp" width="640" height="1200" loading="lazy" decoding="async" alt="CoachingDesk web app preview"></div>
           <h3>CoachingDesk</h3>
           <p>A multi-tenant coaching-center management SaaS for Bangladesh: students, batches and attendance, fees with receipts and due lists, exams and merit lists, SMS notifications, bKash subscription billing, a guardian portal and a Bangla/English mobile-friendly PWA.</p>
           <div class="stack"><span>Next.js</span><span>TypeScript</span><span>PostgreSQL</span><span>Drizzle</span><span>Tailwind</span></div>
@@ -198,6 +201,7 @@
       <article class="card proj reveal">
         <div class="cover"><span class="cat">AI evaluation</span><span class="glyph"><svg class="i"><use href="#i-chart"/></svg></span></div>
         <div class="proj-body">
+          <div class="shot"><img src="img/projects/evalbench.webp" width="640" height="1200" loading="lazy" decoding="async" alt="EvalBench model comparison app preview"></div>
           <h3>EvalBench</h3>
           <p>A workbench for comparing free AI models: runs one test set through several models with rate limiting and retries, blind A/B human review, an AI judge that scores answers against a rubric, and judge–human agreement with Cohen's kappa. Runs fully in the browser as a live demo.</p>
           <div class="stack"><span>React</span><span>TypeScript</span><span>Express</span><span>Zod</span><span>SSE</span></div>
@@ -207,6 +211,7 @@
       <article class="card proj reveal">
         <div class="cover"><span class="cat">E-commerce</span><span class="glyph"><svg class="i"><use href="#i-cart"/></svg></span></div>
         <div class="proj-body">
+          <div class="shot"><img src="img/projects/majestic.webp" width="640" height="1200" loading="lazy" decoding="async" alt="Majestic Motors car dealership site preview"></div>
           <h3>Majestic Motors</h3>
           <p>An online car shop with inventory search and filters, stock-checked checkout, a simulated SurjoPay payment flow, order tracking, and an admin dashboard with revenue charts and inventory management.</p>
           <div class="stack"><span>React</span><span>TypeScript</span><span>Tailwind</span><span>Express</span><span>Zod</span><span>JWT</span></div>
@@ -216,6 +221,7 @@
       <article class="card proj reveal">
         <div class="cover"><span class="cat">Marketplace</span><span class="glyph"><svg class="i"><use href="#i-list"/></svg></span></div>
         <div class="proj-body">
+          <div class="shot"><img src="img/projects/microtask.webp" width="640" height="1200" loading="lazy" decoding="async" alt="Micro Task earning platform preview"></div>
           <h3>Micro Task</h3>
           <p>A micro-task earning platform with worker, task creator and admin roles: coin escrow for tasks, submission reviews, coin purchases, mobile-wallet withdrawals and in-app notifications.</p>
           <div class="stack"><span>React</span><span>TypeScript</span><span>Tailwind</span><span>Express</span><span>Zod</span><span>JWT</span></div>
@@ -225,6 +231,7 @@
       <article class="card proj reveal">
         <div class="cover"><span class="cat">EdTech</span><span class="glyph"><svg class="i"><use href="#i-book"/></svg></span></div>
         <div class="proj-body">
+          <div class="shot"><img src="img/projects/eduflow.webp" width="640" height="1200" loading="lazy" decoding="async" alt="EduFlow learning platform preview"></div>
           <h3>EduFlow</h3>
           <p>A group-study platform where students create assignments, submit work and peer-grade each other with marks and feedback, with PDF preview, search and filters, and dark mode.</p>
           <div class="stack"><span>React</span><span>TypeScript</span><span>Tailwind</span><span>Express</span><span>Zod</span><span>JWT</span></div>

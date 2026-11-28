@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>document.documentElement.classList.add("js")</script>
+<link rel="expect" href="#title" blocking="render">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Blog | Mohammad Fakhrul Islam</title>
@@ -50,6 +52,7 @@
   <article class="article">
     <a class="back" href="blog.html">← All posts</a>
     <h1 id="title">Loading…</h1>
+    <script>try{var s=new URLSearchParams(location.search).get("slug");if(s)document.getElementById("title").style.viewTransitionName="post-"+s.replace(/[^a-zA-Z0-9_-]/g,"-")}catch(e){}</script>
     <div class="meta" id="meta"></div>
     <div class="author"><span class="mono-badge">MF</span><div><b>Mohammad Fakhrul Islam</b><span>Product Manager at Eagle 3D</span></div></div>
     <div class="prose" id="body"></div>
@@ -78,7 +81,7 @@
     if(!p)return fail('That post does not exist.');
     document.title=p.title+' | Mohammad Fakhrul Islam';
     var d=document.querySelector('meta[name="description"]');if(d)d.setAttribute('content',p.summary||'');
-    titleEl.textContent=p.title;
+    titleEl.textContent=p.title;titleEl.style.viewTransitionName='post-'+String(p.slug).replace(/[^a-zA-Z0-9_-]/g,'-');
     var date=new Date(p.date+'T00:00:00');
     metaEl.innerHTML='<span>'+(isNaN(date)?esc(p.date):date.toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'}))+'</span>'+
       (p.readingTime?'<span>· '+esc(p.readingTime)+'</span>':'')+(p.tags||[]).map(function(t){return '<span class="t">'+esc(t)+'</span>';}).join('');

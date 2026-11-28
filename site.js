@@ -21,11 +21,17 @@
     paint();
   });
 
-  /* Header shadow once scrolled */
+  /* Header: border once scrolled, compact after ~40px */
   var top = document.querySelector('.top');
-  function onScroll() { if (top) top.classList.toggle('scrolled', window.scrollY > 8); }
+  var ticking = false;
+  function update() {
+    ticking = false;
+    var y = window.scrollY;
+    if (top) { top.classList.toggle('scrolled', y > 8); top.classList.toggle('compact', y > 40); }
+  }
+  function onScroll() { if (!ticking) { ticking = true; requestAnimationFrame(update); } }
   window.addEventListener('scroll', onScroll, { passive: true });
-  onScroll();
+  update();
 
   /* Reveal on scroll */
   function observeReveals(scope) {
@@ -90,15 +96,16 @@
   /* Post cards (used by the homepage "Latest writing" and the blog list) */
   function esc(s) { return String(s || '').replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function fmtDate(d) { var x = new Date(d + 'T00:00:00'); return isNaN(x) ? esc(d) : x.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }); }
+  function vtName(slug) { return 'post-' + String(slug).replace(/[^a-zA-Z0-9_-]/g, '-'); }
   function postCard(p, heading) {
     var h = heading || 'h2';
     return '<a class="card post-card reveal" href="post.html?slug=' + encodeURIComponent(p.slug) + '">' +
       '<div class="meta"><span>' + fmtDate(p.date) + '</span>' + (p.readingTime ? '<span>· ' + esc(p.readingTime) + '</span>' : '') +
       (p.tags || []).map(function (t) { return '<span class="t">' + esc(t) + '</span>'; }).join('') + '</div>' +
-      '<' + h + '>' + esc(p.title) + '</' + h + '><p>' + esc(p.summary) + '</p>' +
+      '<' + h + ' style="view-transition-name:' + vtName(p.slug) + '">' + esc(p.title) + '</' + h + '><p>' + esc(p.summary) + '</p>' +
       '<span class="more">Read post <svg class="i"><use href="#i-arrow"/></svg></span></a>';
   }
-  window.Site = { esc: esc, fmtDate: fmtDate, postCard: postCard, observeReveals: observeReveals };
+  window.Site = { vtName: vtName, esc: esc, fmtDate: fmtDate, postCard: postCard, observeReveals: observeReveals };
 
   var latest = document.getElementById('latest');
   if (latest) {
